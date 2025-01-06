@@ -1,0 +1,11 @@
+Q: What is the definition of a server port?
+A: A server port is a number that is assigned to a server so that it can be found by other computers on the network. 
+
+Q: What is server port range?
+A: A range of numbers that can be assigned to a server.
+
+Q: How many bits does the number above represent?
+A: 16 bits
+
+Q: State 10 common server ports.
+A: 21, 22, 25, 80, 443, 53, 67, 123, 110, 143

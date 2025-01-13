@@ -1,0 +1,9 @@
+PING 147.182.153.187 (147.182.153.187): 56 data bytes
+64 bytes from 147.182.153.187: icmp_seq=0 ttl=52 time=22.992 ms
+64 bytes from 147.182.153.187: icmp_seq=1 ttl=52 time=22.386 ms
+64 bytes from 147.182.153.187: icmp_seq=2 ttl=52 time=17.545 ms
+64 bytes from 147.182.153.187: icmp_seq=3 ttl=52 time=20.174 ms
+^C
+--- 147.182.153.187 ping statistics ---
+4 packets transmitted, 4 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 17.545/20.774/22.992/2.139 ms

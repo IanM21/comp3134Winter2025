@@ -1,0 +1,51 @@
+nmap nike.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-13 20:36 UTC
+Nmap scan report for nike.com (3.164.92.49)
+Host is up (0.0025s latency).
+Other addresses for nike.com (not scanned): 3.164.92.117 3.164.92.103 3.164.92.21
+rDNS record for 3.164.92.49: server-3-164-92-49.yto53.r.cloudfront.net
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.98 seconds
+---------------------------------------------------------------------------------------------------------
+nmap -p 80 nike.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-13 20:37 UTC
+Nmap scan report for nike.com (3.164.92.49)
+Host is up (0.0026s latency).
+Other addresses for nike.com (not scanned): 3.164.92.21 3.164.92.117 3.164.92.103
+rDNS record for 3.164.92.49: server-3-164-92-49.yto53.r.cloudfront.net
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.05 seconds
+---------------------------------------------------------------------------------------------------------
+nmap -p 80-500 nike.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-13 20:37 UTC
+Nmap scan report for nike.com (3.164.92.49)
+Host is up (0.0024s latency).
+Other addresses for nike.com (not scanned): 3.164.92.103 3.164.92.21 3.164.92.117
+rDNS record for 3.164.92.49: server-3-164-92-49.yto53.r.cloudfront.net
+Not shown: 419 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 2.98 seconds
+---------------------------------------------------------------------------------------------------------
+nmap -F nike.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-13 20:38 UTC
+Nmap scan report for nike.com (3.164.92.103)
+Host is up (0.0025s latency).
+Other addresses for nike.com (not scanned): 3.164.92.21 3.164.92.117 3.164.92.49
+rDNS record for 3.164.92.103: server-3-164-92-103.yto53.r.cloudfront.net
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 1.80 seconds
+---------------------------------------------------------------------------------------------------------

@@ -1,0 +1,18 @@
+IP address	    Type	Hosted by	                                Location
+18.155.192.119	IPv4	Hosted by Amazon.com, Inc. Amazon.com, Inc.	United States of America
+18.155.192.127	IPv4	Hosted by Amazon.com, Inc. Amazon.com, Inc.	United States of America
+18.155.192.64	IPv4	Hosted by Amazon.com, Inc. Amazon.com, Inc.	United States of America
+18.155.192.31	IPv4	Hosted by Amazon.com, Inc. Amazon.com, Inc.	United States of America
+---------------------------------------------------------------------------------------------------------
+IP address	    Type	Hosted by	                                Location
+87.237.217.231	IPv4	Hosted by noris network AG noris network AG	Germany
+---------------------------------------------------------------------------------------------------------
+IP address	    Type	Hosted by	                            Location
+157.240.22.174	IPv4	Hosted by Facebook, Inc. Facebook, Inc.	United States of America
+---------------------------------------------------------------------------------------------------------
+IP address	    Type	Hosted by	                                                    Location
+23.203.238.225	IPv4	Hosted by Akamai Technologies, Inc. Akamai Technologies, Inc.	United States of America
+---------------------------------------------------------------------------------------------------------
+IP address	    Type	Hosted by	                        Location
+151.101.195.1	IPv4	Hosted by Fastly, Inc. Fastly, Inc.	United States of America
+151.101.3.1	    IPv4	Hosted by Fastly, Inc. Fastly, Inc.	United States of America

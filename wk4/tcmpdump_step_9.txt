@@ -1,0 +1,18 @@
+tcpdump -i eth0 tcp
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+20:10:18.305365 IP comp3134-lab.ssh > 20.142.158.104.in-addr.arpa.61766: Flags [P.], seq 688326561:688326669, ack 3704302303, win 501, options [nop,nop,TS val 1052802938 ecr 3412851538], length 108
+20:10:18.305498 IP comp3134-lab.ssh > 20.142.158.104.in-addr.arpa.61766: Flags [P.], seq 108:264, ack 1, win 501, options [nop,nop,TS val 1052802939 ecr 3412851538], length 156
+20:10:18.305547 IP comp3134-lab.ssh > 20.142.158.104.in-addr.arpa.61766: Flags [P.], seq 264:332, ack 1, win 501, options [nop,nop,TS val 1052802939 ecr 3412851538], length 68
+20:10:18.305687 IP comp3134-lab.ssh > 20.142.158.104.in-addr.arpa.61766: Flags [P.], seq 332:368, ack 1, win 501, options [nop,nop,TS val 1052802939 ecr 3412851538], length 36
+20:10:18.318476 IP 20.142.158.104.in-addr.arpa.61766 > comp3134-lab.ssh: Flags [.], ack 0, win 5553, options [nop,nop,TS val 3412851558 ecr 1052802933], length 0
+20:10:18.333969 IP 20.142.158.104.in-addr.arpa.61766 > comp3134-lab.ssh: Flags [.], ack 368, win 5549, options [nop,nop,TS val 3412851565 ecr 1052802939], length 0
+20:10:18.404564 IP comp3134-lab.53410 > 67.207.67.2.domain: Flags [S], seq 1973121309, win 64240, options [mss 1460,sackOK,TS val 1407241732 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+20:10:18.406852 IP 67.207.67.2.domain > comp3134-lab.53410: Flags [S.], seq 2581598989, ack 1973121310, win 65160, options [mss 1460,sackOK,TS val 1243293353 ecr 1407241732,nop,wscale 9], length 0
+20:10:18.406886 IP comp3134-lab.53410 > 67.207.67.2.domain: Flags [.], ack 1, win 502, options [nop,nop,TS val 1407241734 ecr 1243293353], length 0
+20:10:18.407021 IP comp3134-lab.53410 > 67.207.67.2.domain: Flags [P.], seq 1:48, ack 1, win 502, options [nop,nop,TS val 1407241734 ecr 1243293353], length 47 20080+ PTR? 20.142.158.104.in-addr.arpa. (45)
+20:10:18.408209 IP 67.207.67.2.domain > comp3134-lab.53410: Flags [.], ack 48, win 128, options [nop,nop,TS val 1243293354 ecr 1407241734], length 0
+20:10:18.408319 IP 67.207.67.2.domain > comp3134-lab.53410: Flags [P.], seq 1:62, ack 48, win 128, options [nop,nop,TS val 1243293355 ecr 1407241734], length 61 20080 1/0/0 PTR 20.142.158.104.in-addr.arpa. (59)
+20:10:18.408330 IP comp3134-lab.53410 > 67.207.67.2.domain: Flags [.], ack 62, win 502, options [nop,nop,TS val 1407241735 ecr 1243293355], length 0
+20:10:18.410779 IP comp3134-lab.ssh > 20.142.158.104.in-addr.arpa.61766: Flags [P.], seq 368:604, ack 1, win 501, options [nop,nop,TS val 1052803044 ecr 3412851565], length 236
+20:10:18.410931 IP comp3134-lab.ssh > 20.142.158.104.in-addr.arpa.61766: Flags [P.], seq 604:640, ack 1, win 501, options [nop,nop,TS val 1052803044 ecr 3412851565], length 36

@@ -1,0 +1,32 @@
+root@comp3134-lab:~# tcpdump -XX -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+20:06:55.512443 IP comp3134-lab.ssh > 20.142.158.104.in-addr.arpa.61766: Flags [P.], seq 688261125:688261177, ack 3704301087, win 501, options [nop,nop,TS val 1052600145 ecr 3412648741], length 52
+	0x0000:  fe00 0000 0101 b269 00f0 d265 0800 4510  .......i...e..E.
+	0x0010:  0068 0d7e 4000 4006 08de 93b6 99bb 689e  .h.~@.@.......h.
+	0x0020:  8e14 0016 f146 2906 0805 dccb 261f 8018  .....F).....&...
+	0x0030:  01f5 247f 0000 0101 080a 3ebd 6751 cb68  ..$.......>.gQ.h
+	0x0040:  e325 f219 90c0 2902 e706 7a53 d3d7 64c7  .%....)...zS..d.
+	0x0050:  4224 ac76 8ab6 ba1c c237 ca8f bf25 0517  B$.v.....7...%..
+	0x0060:  170d 524b a095 325f 5e5c 0962 b723 082a  ..RK..2_^\.b.#.*
+	0x0070:  97e5 aead 6674                           ....ft
+20:06:55.513392 IP comp3134-lab.ssh > 20.142.158.104.in-addr.arpa.61766: Flags [P.], seq 52:160, ack 1, win 501, options [nop,nop,TS val 1052600146 ecr 3412648741], length 108
+	0x0000:  fe00 0000 0101 b269 00f0 d265 0800 4510  .......i...e..E.
+	0x0010:  00a0 0d7f 4000 4006 08a5 93b6 99bb 689e  ....@.@.......h.
+	0x0020:  8e14 0016 f146 2906 0839 dccb 261f 8018  .....F)..9..&...
+	0x0030:  01f5 24b7 0000 0101 080a 3ebd 6752 cb68  ..$.......>.gR.h
+	0x0040:  e325 7475 1ea5 e7c7 f1b7 8d90 6e0a be13  .%tu........n...
+	0x0050:  7ae4 eef6 f36f f031 257e b3fa dbac 6c52  z....o.1%~....lR
+	0x0060:  1ccb c43b c086 35a4 db10 0403 9932 a938  ...;..5......2.8
+	0x0070:  bbd8 b0de 4bf5 1334 05f4 81d6 796d 17fb  ....K..4....ym..
+	0x0080:  7620 e43c 0359 f2b6 188f 8973 0d98 2c2b  v..<.Y.....s..,+
+	0x0090:  0eef 472f c039 8693 b705 10f8 3445 bbe9  ..G/.9......4E..
+	0x00a0:  cdc4 ca3b d16c 8b01 0e55 2ae5 5ac8       ...;.l...U*.Z.
+20:06:55.513450 IP comp3134-lab.ssh > 20.142.158.104.in-addr.arpa.61766: Flags [P.], seq 160:196, ack 1, win 501, options [nop,nop,TS val 1052600146 ecr 3412648741], length 36
+	0x0000:  fe00 0000 0101 b269 00f0 d265 0800 4510  .......i...e..E.
+	0x0010:  0058 0d80 4000 4006 08ec 93b6 99bb 689e  .X..@.@.......h.
+	0x0020:  8e14 0016 f146 2906 08a5 dccb 261f 8018  .....F).....&...
+	0x0030:  01f5 246f 0000 0101 080a 3ebd 6752 cb68  ..$o......>.gR.h
+	0x0040:  e325 1cbd 9bab a791 0546 5f7c fb11 896c  .%.......F_|...l
+	0x0050:  2791 cf74 063a c533 8e30 b122 2760 c082  '..t.:.3.0."'`..
+	0x0060:  3fce 184c e42e                           ?..L..

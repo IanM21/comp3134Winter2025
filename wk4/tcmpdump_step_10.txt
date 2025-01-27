@@ -1,0 +1,13 @@
+tcpdump -i eth0 port 22
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+20:10:45.672399 IP comp3134-lab.ssh > 20.142.158.104.in-addr.arpa.61766: Flags [P.], seq 688403181:688403289, ack 3704302811, win 501, options [nop,nop,TS val 1052830305 ecr 3412878905], length 108
+20:10:45.672470 IP comp3134-lab.ssh > 20.142.158.104.in-addr.arpa.61766: Flags [P.], seq 108:144, ack 1, win 501, options [nop,nop,TS val 1052830306 ecr 3412878905], length 36
+20:10:45.672506 IP comp3134-lab.ssh > 20.142.158.104.in-addr.arpa.61766: Flags [P.], seq 144:196, ack 1, win 501, options [nop,nop,TS val 1052830306 ecr 3412878905], length 52
+20:10:45.672536 IP comp3134-lab.ssh > 20.142.158.104.in-addr.arpa.61766: Flags [P.], seq 196:264, ack 1, win 501, options [nop,nop,TS val 1052830306 ecr 3412878905], length 68
+20:10:45.672566 IP comp3134-lab.ssh > 20.142.158.104.in-addr.arpa.61766: Flags [P.], seq 264:332, ack 1, win 501, options [nop,nop,TS val 1052830306 ecr 3412878905], length 68
+20:10:45.672593 IP comp3134-lab.ssh > 20.142.158.104.in-addr.arpa.61766: Flags [P.], seq 332:368, ack 1, win 501, options [nop,nop,TS val 1052830306 ecr 3412878905], length 36
+20:10:45.686213 IP 20.142.158.104.in-addr.arpa.61766 > comp3134-lab.ssh: Flags [.], ack 0, win 5552, options [nop,nop,TS val 3412878927 ecr 1052830301], length 0
+20:10:45.691239 IP 20.142.158.104.in-addr.arpa.61766 > comp3134-lab.ssh: Flags [.], ack 368, win 5549, options [nop,nop,TS val 3412878932 ecr 1052830306], length 0
+20:10:45.776698 IP comp3134-lab.ssh > 20.142.158.104.in-addr.arpa.61766: Flags [P.], seq 368:604, ack 1, win 501, options [nop,nop,TS val 1052830410 ecr 3412878932], length 236
+20:10:45.776759 IP comp3134-lab.ssh > 20.142.158.104.in-addr.arpa.61766: Flags [P.], seq 604:640, ack 1, win 501, options [nop,nop,TS val 1052830410 ecr 3412878932], length 36

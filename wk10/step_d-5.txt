@@ -1,0 +1,5 @@
+# What I see on the browser (the issue):
+The browser displays a PHP array including 3 folders, '.', '..' and 'html'
+
+# Sensitive information given by this page:
+Exposes the "html" directory, which could indicate the location of web files and data within the web server's document root.

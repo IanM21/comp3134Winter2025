@@ -1,0 +1,7 @@
+To mitigate the issue of comments being visible in the devtools with HTML comments, 
+I will convert the comments to PHP comments. This will ensure that the comments are not visible in the devtools.
+
+To do this I will use the following code:
+<?php
+// comment here
+?>

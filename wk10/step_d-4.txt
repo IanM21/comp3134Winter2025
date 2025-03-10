@@ -1,0 +1,5 @@
+#1 What I see on the browser (the issue):
+The browser displays a PHP array of folders in the given directory
+
+# Sensitive information given by this page:
+Directory contents, we see multiple folders that could store sensitive information such as cache, backups or logs

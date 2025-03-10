@@ -1,0 +1,6 @@
+# What I see on the browser (the issue):
+The browser displays PHP warnings indicating that the "scandir" function failed to open the directory named "hello." The specific error is "No such file or directory," and it appears on line 7 of the script "directory_traversal_part1.php."
+
+# Sensitive information given by this page:
+1. The full file path: "/var/www/html/directory_traversal_part1.php." This reveals the server's directory structure, which could potentially help an attacker perform directory traversal attacks.
+2. The exact line number of the error (line 7) and the function used ("scandir"). This information might assist an attacker in crafting an exploit or finding other vulnerabilities in the code.

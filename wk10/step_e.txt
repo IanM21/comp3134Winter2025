@@ -1,0 +1,16 @@
+Prevent viewing files and folders before the 'html' directory:
+- Use basename() to restrict access to only directories within 'html.'
+
+Prevent accessing non-existent folders:
+- Use file_exists() to check if the directory exists before accessing it.
+
+Bonus: Prevent filenames as input by checking for dots in the parameter and rejecting invalid inputs.
+
+<h4>This is a H4 tag</h4>
+<!-- H4 Comment -->
+
+<h5>This is a H5 tag</h5>
+<!-- H5 Comment -->
+
+<h6>This is a H3 tag</h6>
+<!-- H6 Comment -->

@@ -1,0 +1,4 @@
+1. When we start typing a word in the search bar, the search bar shows a list of suggested words based on the first few keys typed. 
+2. When entering a word after the /browse/ and hit enter, it brings us to the definition page of the word.
+3. Nothing happens when we enter <script>alert(%27hello%27)</script> in the search bar. It brings up a no results found page upon searching
+4. Nothing happens when we enter <script>alert(%27hello%27)</script> in the URL. It brings up a no results found page upon searching

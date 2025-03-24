@@ -1,0 +1,6 @@
+csfr_form.php: Login works when credentials and CSRF token are correct.
+
+csfr.html: Login fails due to CSRF token mismatch.
+
+Using session-based tokens mitigates CSRF by ensuring that requests originate from legitimate sessions and not forged sites. 
+The attacker cannot guess or access the CSRF token, making automated malicious requests fail.

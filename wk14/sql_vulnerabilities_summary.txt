@@ -1,0 +1,21 @@
+1. Ben
+The query returns nothing as the user with name Ben is not active due to the 0 in the active column (0 = false)
+
+2. Ben'--
+The query returns the data of the user with name Ben due to the comment (--) which comments out the rest of the query
+
+3. Ben' or 1=1
+This throws an error as the query is incorrect due to the single quote in the name column, however if we add the comment and a trailing space
+it displays every user in the database.
+
+--------------------------------
+getusers_2.php
+
+1. Ben
+The query returns nothing as the user with name Ben is not active due to the 0 in the active column (0 = false)
+
+2. Ben'--
+The query returns nothing as we have added code to prevent injection.
+
+3. Ben' or 1=1
+The query returns nothing as we have added code to prevent injection.
